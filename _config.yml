@@ -1,0 +1,36 @@
+title: Hoofbeats Health
+short-title: hoofbeats
+email: HoofbeatsHealth @ gmail.com
+description: health literacy for the masses
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://hoofbeats.github.io" # the base hostname & protocol for your site
+twitter_username: HoofbeatsHealth
+#github_username:  hoofbeats
+
+# Build settings
+markdown: kramdown
+
+sass:
+  sass_dir:  _sass
+  style:  compressed
+
+# BUILD MODIFIERS
+permalink: pretty
+gems:
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-seo-tag
+
+exclude: [
+  "node_modules",
+  "LICENSE",
+  "package.json",
+  "README.md",
+  "Gemfile",
+  "gulpfile.babel.js",
+  ".babelrc",
+  ".gitignore",
+  "sass",
+  "scss",
+  "validate"
+]

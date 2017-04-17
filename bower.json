@@ -1,0 +1,26 @@
+{
+  "name": "hoofbeats",
+  "description": "health literacy for the masses",
+  "main": "index.js",
+  "authors": [
+    "Jake McClure"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "health",
+    "medicine",
+    "medical",
+    "education",
+    "news",
+    "research"
+  ],
+  "homepage": "https://github.com/hoofbeats/hoofbeats.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
