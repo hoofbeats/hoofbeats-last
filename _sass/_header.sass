@@ -1,0 +1,38 @@
+.site-header
+  position: fixed
+  bottom: 0
+  left: 0
+  right: 0
+  background-color: $grey-color-dark
+  height: 3.5rem
+
+  a
+    &,
+    &:hover,
+    &:focus,
+    &:visited
+      //color: $grey-color-dark
+      color: white
+      text-decoration: none
+
+.site-title
+  display: none
+  +mobile-first($on-palm)
+    display: inline-block
+    font-size: 1.25rem
+    font-weight: 200
+    line-height: 3.5rem
+    //letter-spacing: -1px
+    margin-bottom: 0
+    //float: left
+
+.site-nav
+  margin: 0
+  line-height: 3.5rem
+  font-size: 0.75rem
+  li
+    &:hover
+      background-color: rgba(white,0.2)
+  li a
+    line-height: $base-line-height
+    padding: ($spacing-unit / 4)
